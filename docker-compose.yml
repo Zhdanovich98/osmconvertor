@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+
+  convector:
+   # build: ./
+    image: localhost:5000/osmconvertor:latest
+    container_name: "convector"
+    volumes:
+      - ./input:/mnt
+   # command: [osmconvert /mnt/gas.osm -o=/mnt/gas.osm.pbf && chmod 777 /mnt/gas.osm.pbf]
+    command: bash -c "osmconvert /mnt/gas.osm -o=/mnt/gas.osm.pbf && chmod 666 /mnt/gas.osm.pbf"
