@@ -21,4 +21,4 @@ ___
 *Передача файлов формата db от сервера VTiles к серверу Storage осуществляется каждые выходные*
 ___
 
-![Image alt](https://github.com/Zhdanovich98/osmconvertor/raw/master/png/diagram.png)
+![Image alt](https://github.com/Zhdanovich98/osmconvertor/raw/master/png/diagram1.png)
