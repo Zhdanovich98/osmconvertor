@@ -28,4 +28,4 @@ ___
 *Передача файлов формата osm от сервера Rails respublic к серверу области/FTP/VTiles осуществляется каждые выходные.*
 ___
 
-![Image alt](https://github.com/Zhdanovich98/osmconvertor/raw/master/png/diagram1.png)
+![Image alt](https://github.com/Zhdanovich98/osmconvertor/raw/master/png/diagram.png)
